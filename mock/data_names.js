@@ -1,0 +1,1 @@
+module.exports = ['joe', 'bob', 'sean', 'jason', 'jessica'];
