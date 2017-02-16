@@ -1,8 +1,6 @@
 const cars = require('../mock/data_cars');
-const filter2 = require('./filter');
+const filter = require('./filter');
 
-const silverCars = cars.filter2(car => {
-  return car.color === 'Silver';
-});
+const silverCars = cars.filter(car => car.color === 'Silver');
 
 console.log(silverCars);

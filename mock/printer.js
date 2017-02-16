@@ -1,1 +1,1 @@
-module.exports = (valueToPrint) => console.log(valueToPrint);
+module.exports = valueToPrint => console.log(valueToPrint);

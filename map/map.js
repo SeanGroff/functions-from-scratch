@@ -1,8 +1,7 @@
-const forEach2 = require('../forEach/forEach');
 const printer = require('../mock/printer')
 
-module.exports = Array.prototype.map2 = function(cb) {
+module.exports = Array.prototype.map = function(projectionFunction) {
   const newArray = [];
-  this.forEach2(item => newArray.push(cb(item)))
+  this.forEach(item => newArray.push(projectionFunction(item)));
   return newArray;
 }

@@ -1,5 +1,5 @@
 const cars = require('../mock/data_cars');
-const map2 = require('./map')
+const map = require('./map')
 
-const carModels = cars.map2(car => car.model);
+const carModels = cars.map(car => car.model);
 console.log(carModels);
