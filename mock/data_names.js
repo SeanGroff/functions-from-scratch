@@ -1,1 +1,1 @@
-module.exports = ['joe', 'bob', 'sean', 'jason', 'jessica'];
+module.exports = ['joe', 'bob', 'sean', 'jason', 'jessica', 'toby', 'george'];

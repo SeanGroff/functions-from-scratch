@@ -7,6 +7,7 @@ Popular native JavaScript, lodash, and RxJS Array functions built from scratch f
 * map
 * filter
 * concatAll
+* zip
 
 ## FP Terminology
 * **Projection** - Apply a function to a value creating a new value.
